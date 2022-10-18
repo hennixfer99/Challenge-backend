@@ -20,6 +20,6 @@ class Transacoes(models.Model):
     cpf = models.CharField(max_length = 11)
     card = models.CharField(max_length = 64)
     time = models.TimeField()
-    owner_store = models.CharField(max_length = 248)
+    store_owner = models.CharField(max_length = 248)
     store_name = models.CharField(max_length = 248)
 
